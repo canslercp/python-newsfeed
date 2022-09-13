@@ -8,5 +8,5 @@ load_dotenv()
 
 #connect to database using env variable
 engine = create_engine(getenv('DB_URL'), echo=True, pool_size=20, max_overflow=0)
-Session = sessionmaker(blind=engine)
+Session = sessionmaker(bind=engine)
 Base = declarative_base()
