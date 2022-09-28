@@ -12,6 +12,8 @@ Refactoring this app allowed me to accomplish the following:
 - Used the contextual g and session objects of Flask across routes
 - Imported cutom filter functions into Jinja templates
 - Created custom decorator functions
+- Saved project dependencies in a requirements.txt file.
+- Configured Heroku by using Gunicorn to run Flask.
 
 ## Preview App
 Homepage
