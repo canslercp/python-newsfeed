@@ -25,4 +25,27 @@ Post/ Comment
 
 ## [Click here to open the web app :)](https://just-tech-newzz.herokuapp.com/)
 
+## To Run Locally
+run the following commands from the root directory of python-newsfeed:
+
+```python3 -m venv venv```
+
+```. venv/bin/activate```
+
+```pip install -r requirements.txt```
+
+Next, create a .env file in the root directory of the project, and add the following line to it:
+
+```DB_URL=mysql+pymysql://root:<password>@localhost/python_news_db```
+
+Make sure to change ```<password>``` to the password of your root user.
+
+```python3 seeds.py```
+
+```python -m flask run```
+
+
+
+
+
 
